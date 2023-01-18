@@ -1,0 +1,35 @@
+body {
+    background-color: rgb(9,88,67);
+    background: radial-gradient(circle, rgba(9,88,67,1) 20%, rgba(75,83,32,1) 100%);
+}
+.menu {
+    background-color: peru;
+}
+.text {
+    text-align: center;
+    text-decoration: solid;
+    color: white;
+}
+.card {
+    background-color: peru;
+    animation-name: cartas;
+    animation-duration: 3.5s;
+    transition:all 0.3s ease;
+    transition: .2s;
+    
+}
+ 
+.card:hover {
+    transform: scale(1.1); 
+}
+   
+
+@keyframes cartas{
+    0%{
+        transform: scale(.5);
+    }
+}    
+.cartas{
+    width: 60%;
+    align-items: center;
+}
